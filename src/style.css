@@ -14,8 +14,9 @@
 
 .enter-city {
   background: #f9f7fe;
-  border: none;
+
   border-radius: 6px;
+  border-color: #e1edff;
   color: rgba(39, 33, 66, 0.4);
   display: inline-block;
   font-size: 16px;
@@ -34,6 +35,7 @@
   padding: 15px 0;
   flex: 0 0 auto;
   width: 10%;
+  box-shadow: 10px 5px 20px gray;
 }
 .blue-button {
   background: #61e1e9;
@@ -46,4 +48,5 @@
   padding: 15px 0;
   flex: 0 0 auto;
   width: 12%;
+  box-shadow: 10px 5px 20px gray;
 }
