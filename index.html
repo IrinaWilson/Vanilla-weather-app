@@ -13,7 +13,21 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello</h1>
+      <div class="weather">
+        <form id="search-form">
+          <input
+            type="text"
+            placeholder="type city"
+            autofocus="on"
+            class="enter-city"
+            id="search-text-input"
+          />
+
+          <input type="submit" value="Search" class="search-button" />
+
+          <button class="green-button" id="position">Current location</button>
+        </form>
+      </div>
     </div>
     <script src="src/java.js"></script>
   </body>
