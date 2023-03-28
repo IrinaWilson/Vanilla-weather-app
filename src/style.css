@@ -6,8 +6,20 @@
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   padding: 40px;
 }
-.input-form {
+.form-design {
   border-bottom: 1px solid #f9f7fe;
   margin-top: 40px;
   padding-bottom: 30px;
+}
+
+.enter-city {
+  background: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  padding: 15px 20px;
 }
