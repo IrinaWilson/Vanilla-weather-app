@@ -1,3 +1,7 @@
+.app {
+  margin: 0 auto;
+  max-width: 900px;
+}
 .weather {
   background: #fff;
   border-radius: 16px;
@@ -34,8 +38,8 @@
   height: 50px;
   padding: 15px 0;
   flex: 0 0 auto;
-  width: 10%;
-  box-shadow: 10px 5px 20px gray;
+  width: 15%;
+  box-shadow: 10px 3px 25px gray;
 }
 .blue-button {
   background: #61e1e9;
@@ -47,6 +51,25 @@
   height: 50px;
   padding: 15px 0;
   flex: 0 0 auto;
-  width: 12%;
-  box-shadow: 10px 5px 20px gray;
+  width: 20%;
+  box-shadow: 10px 3px 25px gray;
+}
+
+.city {
+  color: #272142;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 29px;
+  line-height: 48px;
+  margin: 12px 0 10px;
+  text-align: center;
+}
+
+.date-time,
+.temperature {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
 }

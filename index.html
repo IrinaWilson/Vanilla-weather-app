@@ -4,36 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Vanilla-weather-app</title>
   </head>
   <body>
-    <div class="container">
-      <div class="weather">
-        <form class="form-design" id="search-form">
-          <input
-            type="text"
-            placeholder="type city.."
-            autofocus="on"
-            class="enter-city"
-            id="search-text-input"
-          />
+    <div class="app">
+      <div class="container">
+        <div class="weather">
+          <form class="form-design" id="search-form">
+            <input
+              type="text"
+              placeholder="type city.."
+              autofocus="on"
+              class="enter-city"
+              id="search-text-input"
+            />
 
-          <input type="submit" value="Search" class="search-button" />
+            <input type="submit" value="Search" class="search-button" />
 
-          <button class="blue-button" id="position">Current location</button>
-        </form>
+            <button class="blue-button" id="position">Current location</button>
+          </form>
+          <div class="row">
+            <div class="col-2">
+              <h1 class="city" id="place">Sydney</h1>
+              <p class="date-time">Monday 10:30</p>
+              <h2 class="temperature" id="temp">13°C</h2>
+            </div>
+            <div class="col-2">
+              <p id="wSpeed">10 km/h</p>
+              <p id="conditions">Rain</p>
+              <p id="humidity">86%</p>
+            </div>
+          </div>
+        </div>
+        <small>
+          <a
+            href="https://github.com/IrinaWilson/Vanilla-weather-app"
+            target="_blank"
+            >Open source code</a
+          >
+          by Irina Wilson
+        </small>
       </div>
-      <small>
-        <a href="https://github.com/IrinaWilson/Vanilla-weather-app"
-          >Open source code</a
-        >
-        by Irina Wilson
-      </small>
     </div>
     <script src="src/java.js"></script>
   </body>
