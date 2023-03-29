@@ -40,6 +40,7 @@
   flex: 0 0 auto;
   width: 15%;
   box-shadow: 10px 3px 25px gray;
+  margin-left: 5px;
 }
 .blue-button {
   background: #61e1e9;
@@ -53,23 +54,32 @@
   flex: 0 0 auto;
   width: 20%;
   box-shadow: 10px 3px 25px gray;
+  margin-left: 5px;
 }
 
-.city {
+.city,
+.temperature {
   color: #272142;
   font-size: 35px;
   font-weight: 600;
-  line-height: 29px;
-  line-height: 48px;
   margin: 12px 0 10px;
   text-align: center;
 }
 
-.date-time,
-.temperature {
-  color: rgba(39, 33, 66, 0.4);
+.date-time {
+  color: #878787;
   font-size: 16px;
   font-weight: 500;
-  line-height: 20px;
   text-align: center;
+}
+
+.weather-condition {
+  color: #878787;
+}
+
+.col-2 {
+  border-left: 1px solid black;
+  height: 180px;
+  margin-left: 5px;
+  margin-right: 40px;
 }
